@@ -1,0 +1,48 @@
+/*
+CSS Foundation
+Main Css
+*/
+html {
+	font-family: Georgia, sans-serif;
+	font-size: 1em;
+}
+
+li {
+	line-height: 1.5em;
+}
+
+.ui-widget {
+	font-family: Georgia, sans-serif;
+}
+
+#tableOfContents {
+	width: 30%;
+	float: left;
+	margin-right: 5px;
+}
+
+#tableOfContents li {
+	display: table;
+	border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+#tableOfContents li:hover {
+	cursor: pointer;
+	border-bottom: 2px solid white;
+}
+
+#tableOfContents li:active {
+	color: rgb(247, 154, 45);
+	border-bottom-color: rgb(247, 154, 45);
+}
+
+#mainHeading, #activeTableOfContentsSectionMainHeading {
+	display: inline-block;
+	float: left;
+}
+
+#mainHeading .ui-accordion-header, #activeTableOfContentsSectionMainHeading .ui-accordion-header {
+	padding-left: .5em;
+	cursor: default;
+	font-size: 1.3em;
+	margin-right: 5px;
+}

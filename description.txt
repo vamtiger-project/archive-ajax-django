@@ -1,0 +1,8 @@
+Title: 
+Experimenting with CSS, JQuery UI, AJAX, and DJANGO.
+
+Description: 
+Use AJAX to populate the accordion widget of JQuery UI before it expands.
+
+Aim:
+Playing around with Django and AJAX. Only populate the data in the accordion widget when expanded. The user will only download the information they find relevant.
